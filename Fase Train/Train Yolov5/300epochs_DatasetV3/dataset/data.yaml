@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Deframe_or_Dent', 'Hole', 'Rust']
+
+roboflow:
+  workspace: tectonia-azmbv
+  project: contrainer-damage-detection
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tectonia-azmbv/contrainer-damage-detection/dataset/3
